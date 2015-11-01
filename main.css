@@ -1,0 +1,42 @@
+
+
+
+h1 {
+	color:white;
+}
+
+h3 {
+	color:white;
+}
+
+.billboard {
+		padding-top:180px;
+		padding-bottom:200px;
+		text-align:center;
+		background-image: url("img/foodtruck.jpg")
+}
+
+ul {
+	list-style:none;
+	margin:5px;
+}
+
+.row {
+	margin:10px;
+	text-align: center;
+}
+
+i {
+	size:30px;
+}
+
+.row2 {
+		margin-top:100px;
+		margin-bottom:100px;
+		margin-left:10px;
+		margin-right:10px;
+}
+
+.navbar {
+	margin:8px;
+}
