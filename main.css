@@ -5,6 +5,8 @@ h1 {
 	color:white;
 }
 
+
+
 h3 {
 	color:white;
 }
@@ -13,12 +15,60 @@ h3 {
 		padding-top:180px;
 		padding-bottom:200px;
 		text-align:center;
-		background-image: url("img/foodtruck.jpg")
+		background-image: url("img/foodtruck.jpg");
+		background-size:1200px 750px;
+		background-position: center;
+		background-repeat: no-repeat;
+}
+
+.filled {
+	background-color:#888888;
+	padding-right:20px;
+	border-radius:5px;
+}
+
+.billboard2 {
+		padding-top:180px;
+		padding-bottom:200px;
+		text-align:center;
+		background-image: url("img/tacos.jpg");
+		background-size:1200px 750px;
+		background-position: center;
+		background-repeat: no-repeat;
+}
+
+.billboard3 {
+
+		padding-bottom:200px;
+		text-align:center;
+		background-size:1200px 750px;
+		background-position: center;
+		background-repeat: no-repeat;
+}
+
+.billboardblank {
+		padding-bottom:50px;
+		padding-top:50px;
+		text-align:center;
+		background-size:1200px 750px;
+		background-position: center;
+		background-repeat: no-repeat;
+
+}
+
+.middletext {
+	width:40%;
+	margin:auto;
+	margin-top:-100px;
 }
 
 ul {
 	list-style:none;
-	margin:5px;
+	text-align:right;
+	margin:2px;
+	float:right;
+	padding-right:10px;
+
 }
 
 .row {
@@ -35,8 +85,122 @@ i {
 		margin-bottom:100px;
 		margin-left:10px;
 		margin-right:10px;
+		width:1200px;
+		float:center;
 }
 
 .navbar {
-	margin:8px;
+	margin: 8px auto;
+	text-align:right;
+	height:100px;
+	width:1000px;
+	background-image: url("http://cdn.offthegridsf.com/wp-content/uploads/2012/03/otg-logo2.gif");
+	background-repeat: no-repeat;
+    background-position: 3% 0%;
 }
+
+
+
+.button {
+	padding:20px 25px 20px;
+	color:#FFFFFF;
+	background-color:#006cd9;
+	border-radius:5px;
+	margin-top:50px;
+}
+
+.button2 {
+	padding:20px 25px 20px;
+	color:#FFFFFF;
+	background-color:#006cd9;
+	border-radius:5px;
+	margin-top:100px;
+}
+
+.partner {
+	padding-bottom:50px;
+}
+
+.extrabottom {
+	margin-bottom:50px;
+}
+
+.googlemap {
+	margin: auto;
+}
+
+
+.googlemap2 {
+    margin-top:30px;
+    margin-bottom:30px;
+    border:0px;
+
+}
+
+
+.topnav {
+	margin-top:50px;
+}
+
+.center {
+	margin-top:200px;
+}
+
+@media (max-width: 1000px) {
+
+	.navbar { 
+		width:90%;
+
+	}
+
+	.topnav {
+		margin-top:90px;
+		margin-bottom:10px;
+	}
+
+
+
+
+	ul {
+		float:left;
+	}
+
+	.billboard
+		{
+		margin-top:90px;
+		margin-bottom:10px;
+	}
+
+}
+
+@media (max-width: 700px) {
+
+li {
+	font-size:10px;
+}
+
+
+
+	}
+
+@media (max-width: 400px) {
+
+
+	.col-md-6 { 
+	padding:0px;
+
+	}
+
+	.row { 
+	margin:0px;
+
+	}
+
+
+	.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+}
+
